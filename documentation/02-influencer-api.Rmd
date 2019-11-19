@@ -1,0 +1,8 @@
+# Influencer API
+Outdoor Listening's Influencer API aggregates data related to influencer content, audience, and impact. **This section of documentation will be written after January 2020.**
+
+## Data Sources
+
+## Supported Analytics
+
+## Ethics and Privacy

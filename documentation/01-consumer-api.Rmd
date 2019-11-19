@@ -1,0 +1,116 @@
+# Consumer API
+Outdoor Listening's Consumer API aggregates data related to consumer opinion and sentiment. As a counterpart to the Influencer API, which tracks the impact of brands, journalists, media personalities, professionals, and social media influencers, the goal of the Consumer API is to understand trends, opinions, and sentiments more generally for specified communities in outdoor recreation. Currently, the development of the Consumer API is focused on four communities: shooting, fishing, hunting, and hiking.
+
+## Keywords
+
+**Keywords and Word Search:**
+- *Brands*:
+- *Products*:
+- *Species*:
+
+## Context Tags
+Context tags identify the forum context in which a post was written. We tag each individual forum within a forum site with its appropriate context tag. Often, individual forums within a forum site receive a single tag to identify their context, but when appropriate a specific forum could receive more than one tag. For example, a forum tagged with `diy` ("Do it Yourself") could also receive the `law` tag if people in that specific forum also discuss various laws and regulations pertaining to whatever project, upgrade, or modification users are interested in. Therefore, both the `diy` and the `law` tags could be added as the context tags for a single forum.  
+
+Furthermore, context tags are not restrictive, and they function similarly to the way #hashtags operate in social networks: they help us to quickly subset our data and investigate particular types of conversations and topics, but we can also ignore the tags whenever they needlessly restrict other types of analyses. In other words, tags improve the resolution of forum data without inhibiting other comparisons or advanced analytics.  
+
+**Tagging Definitions:**  
+*General*: The `gen` tag indicates conversations where users introduce themselves and have everyday conversations that may or may not relate to outdoor recreation.  
+
++ `user-about`
++ `site-about`
++ `img` (images)
+
+*Gear*: The `gear` tag indicates conversations where users discuss the primary tools and technologies that support or enable outdoor recreation.  
+
++ `hand` (handgun)
++ `shot` (shotgun)
++ `rifle`
++ `opt` (optics)
++ `msr` (modern sporting rifle)
++ `img` (images)
++ `ammo` (ammunition)
++ `acc` (accessories)
++ `pow` (black powder)
++ `nfa` (NFA weapons, suppressors)
++ `rim` (rimfire)
++ `store` (storage, safes)
++ `relic` (collector items, antiques, military surplus)
+
+*Do it Yourself*: The `diy` tag indicates conversations where users engineer their own tools and technologies related to outdoor recreation, or where users discuss the maintenance, repair, or modification of outdoor gear.
+  + `smith` (gunsmith)
+  + `reload` (reloading ammo)
+  + `main` (maintenance, cleaning)
+
+*Type of Activities*: The `type` tag indicates conversations where users discuss activities, strategies, methods, and practices related an outdoor recreation activity.  
+
++ `sd` (self-defense)
++ `tac` (tactical)
++ `hunt`
++ `surv` (survival, prepping, off-grid living, minimalist living)
++ `food` (butchering, culinary, food prep, food preservation, etc.)
+
+*Laws, Rules, and Regulations*: The `law` tag indicates conversations where users discuss laws, rules, and regulations related to an outdoor activity, or conversations where users discuss laws, rules, and regulations related to outdoor gear or DIY.  
+
+*Off-Topic*: The `off` tag indicates conversations where users discuss topics not related to their primary area of outdoor recreation. For example, when anglers discuss hunting, or when hunters discuss hiking, or when hikers discuss firearms and shooting. The `off` tag allows us to understand these complex crossover contexts.  
+
+ + `arch` (archery)
+ + `fish`
+ + `hike`
+ + `hunt`
+ + `gear`
+ + `give` (philanthropy, giving to the needy, donations, etc.)
+ + `blade` (knives, swords, axes, and other bladed tools for cutting)
+ + `sports`
+ + `autos` (gearheads, automobiles)
+ + `power` (powersports, ATVs)
+ + `nsfw` (not safe for work, obscene/pornography, crude humor)
+ + `dev` (digital devices)
+
+*News* The `news` tag indicates conversations where users discuss news, politics, or current events more generally for the U.S. population.
+
+*Demographic-Specific*: The `dem` tag indicates conversations where users discuss topics meant for a specific demographic.  
+
+ + `female`
+ + `youth`
+
+*Conservation*: The `conserve` tag indicates conversations relating to public resources, public land, or other conservation related discussions.  
+
++ `land`
++ `res` (resources)
+
+*Organized Activities*: The `org` tag indicates conversations where users discuss organized activities, such as conventions, clubs, political groups, and organized recreational events.
+
++ `conv` (conventions, tradeshows)
++ `comp` (competitions, tournaments, leagues)
++ `pol` (political)
++ `rec` (recreation)
++ `show` (swap meets, flea markets, gun shows)
++ `edu` (education, training)
++ `club`
++ `recruit`
+
+*Classifieds*: The `class` tag indicates conversations where users list items for sale.  
+
+ + `sale`
+ + `want`
+ + `work` (jobs, help wanted)
+ + `vend` (vendors, site sponsors)
+
+*Geographic*: The `geo` tag indicates conversations where users discuss outdoor recreation related to a particular geographic region in the United States.
+
++ `pac` (Pacific Region)
++ `rocky` (Rocky Mountains Region)
++ `southw` (Southwest Region)
++ `noncon` (Noncontiguous Region)
++ `northe` (Northeast Region)
++ `southe` (Southeast Region)
++ `midw` (Midwest Region)
+
+## Data Visualizations
+### Trends
+### Mapping
+### History
+### Demographics
+
+## Analytics
+### Hierarchical Edge Bundle

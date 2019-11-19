@@ -1,0 +1,59 @@
+/* .cover-text {
+  font-size: 20pt;
+} */
+
+
+.navbar-brand {
+  color: #83d536 !important;
+  font-family: 'Exo 2', sans-serif !important;
+  font-size: 35px !important;
+  /* font-weight: bold !important; */
+}
+
+.intro-lead-in {
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 100 !important;
+  font-size: 30px !important;
+}
+
+.btn-primary {
+  background-color: #83d536 !important;
+  color: #262626;
+}
+
+.btn-primary:hover {
+  background-color: #83d536 !important;
+  color: white;
+}
+
+.inline-name {
+  font-family: 'Exo 2', sans-serif;
+  /* font-weight: bold; */
+  /* color: #262626; */
+}
+
+.large {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 35px !important;
+  font-weight: bold;
+}
+
+.services-captions p {
+  font-size: 17px;
+}
+
+.fa-inverse {
+  color: #262626;
+}
+
+.fa-circle {
+  -webkit-text-fill-color: #83d536; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #262626;
+}
+
+/* .navbar-dark {
+  background-color: #262626;
+} */
