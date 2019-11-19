@@ -1,17 +1,15 @@
 # Consumer API
-Outdoor Listening's Consumer API aggregates data related to consumer opinion and sentiment. As a counterpart to the Influencer API, which tracks the impact of brands, journalists, media personalities, professionals, and social media influencers, the goal of the Consumer API is to understand trends, opinions, and sentiments more generally for specified communities in outdoor recreation. Currently, the development of the Consumer API is focused on four communities: shooting, fishing, hunting, and hiking.
+Outdoor Listening's Consumer API aggregates data related to consumer opinion and sentiment. As a counterpart to the Influencer API, which tracks the impact of brands, journalists, media personalities, professionals, and social media influencers, the goal of the Consumer API is to understand trends, opinions, and sentiments more generally for specific outdoor recreation activities. Currently, the development of the Consumer API is focused on three activities.
+<!-- ## Keywords
 
-## Keywords
-
-**Keywords and Word Search:**
-- *Brands*:
-- *Products*:
-- *Species*:
+**Keywords and Word Search:** -->
 
 ## Context Tags
-Context tags identify the forum context in which a post was written. We tag each individual forum within a forum site with its appropriate context tag. Often, individual forums within a forum site receive a single tag to identify their context, but when appropriate a specific forum could receive more than one tag. For example, a forum tagged with `diy` ("Do it Yourself") could also receive the `law` tag if people in that specific forum also discuss various laws and regulations pertaining to whatever project, upgrade, or modification users are interested in. Therefore, both the `diy` and the `law` tags could be added as the context tags for a single forum.  
+Context tags identify the discussion context in which a forum post was written. We tag each individual forum within a forum site with its appropriate context tag. Often, individual forums within a forum site receive a single tag to identify their context, but when appropriate a specific forum could receive more than one tag. For example, a forum tagged with `diy` ("Do it Yourself") could also receive the `law` tag if people in that specific forum also discuss various laws and regulations pertaining to whatever project, upgrade, or modification users are interested in. Therefore, both the `diy` and the `law` tags could be added as the context tags for a single forum like this.  
 
-Furthermore, context tags are not restrictive, and they function similarly to the way #hashtags operate in social networks: they help us to quickly subset our data and investigate particular types of conversations and topics, but we can also ignore the tags whenever they needlessly restrict other types of analyses. In other words, tags improve the resolution of forum data without inhibiting other comparisons or advanced analytics.  
+Furthermore, context tags are not restrictive, and they function similarly to the way #hashtags operate in social networks: they help us to quickly subset our data and investigate particular types of conversations and topics, but we can also ignore the tags whenever they needlessly restrict other types of analyses. In other words, tags improve the resolution of forum data without inhibiting other comparisons or explorations of the data.  
+
+Many of the parent tags also have sub-tags--or child tags. The parent tags are `gen` (general), `gear`, `diy` (do it yourself), `type` (type of activity), `law` (laws and regulations), `off` (off-topic), `news`, `dem` (demographic-specific), `conserve` (conservation), `org` (organized activities), `class` (classifieds), `geo` (geographic region). The outline below provides tagging definitions and shows the parent/child tag hierarchies:
 
 **Tagging Definitions:**  
 *General*: The `gen` tag indicates conversations where users introduce themselves and have everyday conversations that may or may not relate to outdoor recreation.  
@@ -41,7 +39,7 @@ Furthermore, context tags are not restrictive, and they function similarly to th
   + `reload` (reloading ammo)
   + `main` (maintenance, cleaning)
 
-*Type of Activities*: The `type` tag indicates conversations where users discuss activities, strategies, methods, and practices related an outdoor recreation activity.  
+*Type of Activity*: The `type` tag indicates conversations where users discuss activities, strategies, methods, and practices related an outdoor recreation activity.  
 
 + `sd` (self-defense)
 + `tac` (tactical)

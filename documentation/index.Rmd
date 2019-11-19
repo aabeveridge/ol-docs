@@ -24,9 +24,10 @@ output:
 Outdoor Listening is a data engineering and software development firm serving the outdoor recreation industry. We partner with conservation researchers, consumer analysts, and marketing experts in outdoor recreation to engineer new analytics tools, to collect and aggregate data for customized workflows, and to create new data-driven applications.
 
 ## Activity-Specific Methodology
-We aggregate data pertaining to specific activities within outdoor recreation, producing highly contextualized data based on a deep understanding of the diverse communities that form around specialized outdoor activities. Currently, we aggregate data for the following activities:  
-  - Fishing
-  - Shooting & Hunting  
-  - Hiking     
+We aggregate data pertaining to specific activities within outdoor recreation, producing highly contextualized data based on a deep understanding of the diverse communities that form around specialized outdoor activities. Currently, we aggregate data for the following activities:
+
+- Fishing & Anglers
+- Shooting & Hunters  
+- Outdoor Fitness & Hikers     
 
 We are actively researching other activities and we welcome requests for aggregate data relating to other outdoor recreation activities. We are currently working to add the following activities to the Consumer API: running, mountaineering, boating, powersports, and overlanding.
