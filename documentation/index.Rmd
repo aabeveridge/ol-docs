@@ -1,5 +1,7 @@
 ---
-title: "Outdoor Listening Documentation"
+title: "Outdoor Listening"
+author: "Aaron Beveridge & Nicholas Van Horn"
+book-url: "../../index.html"
 output:
   bookdown::gitbook:
     config:
